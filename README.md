@@ -2,13 +2,10 @@
 
 How do we improve reliability, visibility and speed?
 
-1. Cypress Test (5 mins)
-* npx run cypress
-* Reliability: Cypress makes running and debugging tests easier
+1. Reliability: Cypress makes running and debugging tests easier (5 mins)
+* npx cypress run
 
-2. Visibility ( 5 mins)
-* launch sorryc-cypress: launch director, launch dashboard, api via docker compose 
-* run same tests and show dashboard outcomes
-
-3. Speed (5 mins)
+2. Speed & Visibility (10 mins)
 * rerun above tests with parallelization turned on
+* docker-compose -f ./docker-compose.minio.yml up 
+* CYPRESS_API_URL="http://localhost:1234/" npx cy2 run --record --key somekey --ci-build-id hello-cypress-6 --parallel
