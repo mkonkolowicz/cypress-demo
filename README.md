@@ -3,7 +3,7 @@
 How do we improve reliability, visibility and speed?
 
 1. Reliability: Cypress makes running and debugging tests easier (5 mins)
-* npx cypress run
+- npx cypress run
 
 2. Speed & Visibility (10 mins)
 * rerun above tests with parallelization turned on
