@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-data/
+*/data/*/
 .idea/vcs.xml
 .idea/workspace.xml
 .DS_Store
